@@ -42,7 +42,7 @@ function timer(id, deadline) {
             seconds.textContent = t.seconds1;
 
             if (t.total <= 0) {
-                mins.textContent = "00";
+                min.textContent = "00";
                 hours.textContent = "00";
                 seconds.textContent = "00";
                 clearInterval(timeInt);
